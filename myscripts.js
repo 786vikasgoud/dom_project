@@ -11,7 +11,7 @@ wholeData()
       imgurl = data[i].flags.png;
       var newDiv = document.createElement("div");
       newDiv.className = "card";
-      newDiv.style.width = "18rem";
+      newDiv.style.width = "17rem";
 
       var imgDiv = document.createElement("img");
       imgDiv.className = "flag";
