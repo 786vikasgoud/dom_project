@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Dark-Blue: hsl(209, 23%, 22%);
+  --Very-Dark-Blue: hsl(207, 26%, 17%);
+  --Very-Dark-Blue: hsl(200, 15%, 8%);
+  --Dark-Gray: hsl(0, 0%, 52%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+  --White: hsl(0, 0%, 100%);
+  --Family: [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans);
+  --Weights: 300, 600, 800;
+  --Familys: "Nunito Sans";
+}
+
+.outerflex {
+  width: 100%;
+}
+.main {
+  background-color: var(--Very-Light-Gray);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 4%;
+  padding-bottom: 2.5%;
+  margin-bottom: 5%;
+  box-shadow: 1px 1px 10px rgb(184, 179, 179);
+}
+.head {
+  font-family: var(--Familys);
+  font-weight: bold;
+  font-size: 14px;
+}
+.mode {
+  font-family: var(--Familys);
+  font-size: 14px;
+  /* border: 1px solid red; */
+}
+.mysearch {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 11%;
+}
+.search {
+  width: 95%;
+  align-self: left;
+  padding-left: 1.3em;
+  /* border: 1px solid red; */
+}
+.form-control {
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
+  border-left: none;
+}
+.Filter {
+  margin-left: 1.5%;
+  margin-top: 3%;
+  font-family: var(--Familys);
+  /* border: 1px solid red; */
+}
+.btn {
+  background-color: white;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  margin-left: 4.4%;
+  color: black;
+  box-shadow: 1px 1px 10px rgb(184, 179, 179);
+  width: 60%;
+  /* border: 1px solid red; */
+}
+.dropdown-menu {
+  padding-left: 3.5%;
+}
+.select_region {
+  text-decoration: none;
+  color: black;
+}
+.flagsdata {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card {
+  object-fit: contain;
+  margin-bottom: 3em;
+  box-shadow: 1px 1px 10px rgb(184, 179, 179);
+  padding-bottom: 4em;
+}
+.countryname {
+  font-size: large;
+  font-family: var(--Familys);
+  font-weight: 800;
+  padding-left: 5%;
+  margin-top: 7%;
+  padding-bottom: 4%;
+}
+.Population,
+.Capital,
+.Region {
+  font-size: 14px;
+  font-family: var(--Familys);
+  padding-left: 5%;
+}
+strong {
+  font-family: var(--Familys);
+  font-weight: 600;
+}
+
+.input-group {
+  border: none;
+  box-shadow: 1px 1px 10px rgb(184, 179, 179);
+}
+.input-group-text {
+  background-color: white;
+}
+img {
+  width: 100%;
+  height: 150px;
+}
+.select_region,
+.fil {
+  font-size: 14px;
+}
