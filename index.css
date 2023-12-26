@@ -170,7 +170,16 @@ img {
   .btn {
     margin-left: 21.8%;
     border: none;
-    /* border: 1px solid red; */
+    padding-top: 5%;
+    align-self: center;
+    /*border: 1px solid red; */
+  }
+  .fil {
+    padding-left: 5%;
+  }
+  .dropdown-menu {
+    padding-left: 0;
+    padding-left: 2.3%;
   }
   .flagsdata {
     display: flex;
@@ -221,7 +230,10 @@ img {
   .btn {
     margin-left: 24.5%;
     border: none;
-    /* border: 1px solid red; */
+  }
+  .dropdown-menu {
+    padding-left: 0;
+    padding-left: 2.3%;
   }
   .flagsdata {
     display: flex;
